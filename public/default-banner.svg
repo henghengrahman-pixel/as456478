@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560">
-  <defs><radialGradient id="g"><stop stop-color="#e52d35"/><stop offset=".45" stop-color="#6e0b10"/><stop offset="1" stop-color="#101211"/></radialGradient><pattern id="p" width="70" height="70" patternUnits="userSpaceOnUse"><path d="M0 70L70 0M35 70L70 35M0 35L35 0" stroke="#fff" stroke-opacity=".035" stroke-width="2"/></pattern></defs>
-  <rect width="1400" height="560" fill="url(#g)"/><rect width="1400" height="560" fill="url(#p)"/>
-  <circle cx="1180" cy="280" r="150" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="22"/><path d="M1180 170l75 55-29 90h-92l-29-90z" fill="#fff" fill-opacity=".15"/>
-  <text x="210" y="220" fill="#fff" font-family="Arial,sans-serif" font-size="92" font-weight="900">BOLA UTAMA</text>
-  <text x="215" y="300" fill="#fff" font-family="Arial,sans-serif" font-size="34" font-weight="700">PUSAT BOLA UTAMA</text>
-  <text x="215" y="374" fill="#fff" fill-opacity=".9" font-family="Arial,sans-serif" font-size="25">Live Streaming  •  Live Score  •  Prediksi</text>
-</svg>
