@@ -1,0 +1,38 @@
+BOLA UTAMA - CONNECTED SARANG FINAL
+
+1. Beranda
+- Section Berita Olahraga paling bawah dihapus.
+- Diganti informasi BOLA UTAMA yang dapat diubah dari Admin > Pengaturan.
+- Pertandingan Besar Minggu Ini memakai horizontal carousel + tombol kiri/kanan.
+- Klik pertandingan unggulan membuka /detail/:fixtureId, bukan player live.
+
+2. Detail Pertandingan
+- Skor FT tampil jika pertandingan selesai.
+- Ringkasan terhubung ke fixtures/events API-Football.
+- Statistik terhubung ke fixtures/statistics API-Football.
+- Susunan Pemain terhubung ke fixtures/lineups dan divisualisasikan di lapangan.
+- Riwayat/H2H terhubung ke API-Football.
+- Klasemen terhubung ke standings API-Football.
+
+3. Widget Skor
+- Tombol Widget di detail pertandingan.
+- URL: /widget/score/:fixtureId.
+- URL dapat disalin dan dibuka mandiri seperti score widget.
+
+4. Klasemen
+- Layout dirapikan seperti referensi: sport tabs, liga populer, Semua Liga per negara, search, slot iklan samping.
+
+5. Member & Komentar
+- Daftar tampil dalam modal clean seperti referensi.
+- Nomor handphone tersimpan bersama akun member.
+- Pengunjung yang belum login dapat membaca komentar tetapi tidak dapat mengirim komentar.
+- API komentar tetap dilindungi middleware auth di backend.
+
+6. Live Streaming
+- Halaman live tetap player + server + skor + komentar + live lainnya.
+- Tab detail tidak ditempatkan di halaman live.
+
+Validasi lokal:
+- npm run check PASS untuk server.js, app.js, enhancements.js, admin.js.
+- Static acceptance checks PASS.
+- npm ci/runtime integration tidak selesai di sandbox karena instalasi npm timeout; node_modules parsial tidak disertakan.
